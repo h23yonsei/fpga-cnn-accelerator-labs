@@ -1,0 +1,32 @@
+# Normalize line endings to LF on commit, check out as OS-native
+* text=auto
+
+# Source code and text data
+*.v    text
+*.sv   text
+*.xdc  text
+*.tcl  text
+*.c    text
+*.h    text
+*.py   text
+*.md   text
+*.txt  text
+*.hex  text
+*.coe  text
+*.ld   text
+*.rpt  text
+
+# Vivado / SDK project files
+*.xpr  text
+*.bd   text
+*.bda  text
+*.xci  text
+*.prj  text
+*.spec text
+
+# Binary files: do not normalize
+*.pdf  binary
+*.xsa  binary
+*.bin  binary
+*.npz  binary
+*.png  binary

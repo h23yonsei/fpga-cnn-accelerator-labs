@@ -1,0 +1,6 @@
+# Test vectors and the CNN golden model (tools/gen_vectors.py, tools/cnn_reference.py)
+numpy>=1.24
+
+# PC side of the UART loopback board test (06-uart-loopback/host/uart_loopback.ipynb)
+opencv-python>=4.8
+pyserial>=3.5
