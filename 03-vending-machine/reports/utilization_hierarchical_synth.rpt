@@ -1,0 +1,41 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Oct 26 07:56:52 2026
+| Command      : report_utilization -hierarchical -file build/hw/vending/utilization_hierarchical_synth.rpt
+| Design       : vending_machine
+| Device       : xc7s50csga324-1
+| Speed File   : -1
+| Design State : Synthesized
+------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++---------------------+-----------------+------------+------------+---------+------+-----+--------+--------+------------+
+|       Instance      |      Module     | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 | DSP Blocks |
++---------------------+-----------------+------------+------------+---------+------+-----+--------+--------+------------+
+| vending_machine     |           (top) |         96 |         96 |       0 |    0 |  51 |      0 |      0 |          0 |
+|   (vending_machine) |           (top) |          1 |          1 |       0 |    0 |   0 |      0 |      0 |          0 |
+|   u_action_ctrl     |     action_ctrl |         56 |         56 |       0 |    0 |  19 |      0 |      0 |          0 |
+|   u_btn1_debouncer  |   btn_debouncer |          7 |          7 |       0 |    0 |   2 |      0 |      0 |          0 |
+|     u_sample_new    |     dflipflop_5 |          4 |          4 |       0 |    0 |   1 |      0 |      0 |          0 |
+|     u_sample_old    |     dflipflop_6 |          3 |          3 |       0 |    0 |   1 |      0 |      0 |          0 |
+|   u_btn2_debouncer  | btn_debouncer_0 |          3 |          3 |       0 |    0 |   2 |      0 |      0 |          0 |
+|     u_sample_new    |     dflipflop_3 |          1 |          1 |       0 |    0 |   1 |      0 |      0 |          0 |
+|     u_sample_old    |     dflipflop_4 |          2 |          2 |       0 |    0 |   1 |      0 |      0 |          0 |
+|   u_btn3_debouncer  | btn_debouncer_1 |          3 |          3 |       0 |    0 |   2 |      0 |      0 |          0 |
+|     u_sample_new    |       dflipflop |          1 |          1 |       0 |    0 |   1 |      0 |      0 |          0 |
+|     u_sample_old    |     dflipflop_2 |          2 |          2 |       0 |    0 |   1 |      0 |      0 |          0 |
+|   u_clock_divider   |   clock_divider |          8 |          8 |       0 |    0 |  22 |      0 |      0 |          0 |
+|   u_mode_ctrl       |       mode_ctrl |         17 |         17 |       0 |    0 |   2 |      0 |      0 |          0 |
+|   u_ssd_ctrl        |        ssd_ctrl |          1 |          1 |       0 |    0 |   2 |      0 |      0 |          0 |
++---------------------+-----------------+------------+------------+---------+------+-----+--------+--------+------------+
+
+

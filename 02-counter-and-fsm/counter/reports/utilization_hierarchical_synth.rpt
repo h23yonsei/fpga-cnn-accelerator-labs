@@ -1,0 +1,35 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Mon Oct 26 07:55:56 2026
+| Command      : report_utilization -hierarchical -file build/hw/counter/utilization_hierarchical_synth.rpt
+| Design       : top_counter
+| Device       : xc7s50csga324-1
+| Speed File   : -1
+| Design State : Synthesized
+------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++-------------------+-----------------+------------+------------+---------+------+-----+--------+--------+------------+
+|      Instance     |      Module     | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 | DSP Blocks |
++-------------------+-----------------+------------+------------+---------+------+-----+--------+--------+------------+
+| top_counter       |           (top) |         20 |         20 |       0 |    0 |  31 |      0 |      0 |          0 |
+|   (top_counter)   |           (top) |          7 |          7 |       0 |    0 |   5 |      0 |      0 |          0 |
+|   u_btn_down      |   btn_debouncer |          0 |          0 |       0 |    0 |   2 |      0 |      0 |          0 |
+|     u_sample_new  |     dflipflop_2 |          0 |          0 |       0 |    0 |   1 |      0 |      0 |          0 |
+|     u_sample_old  |     dflipflop_3 |          0 |          0 |       0 |    0 |   1 |      0 |      0 |          0 |
+|   u_btn_up        | btn_debouncer_0 |          4 |          4 |       0 |    0 |   2 |      0 |      0 |          0 |
+|     u_sample_new  |       dflipflop |          2 |          2 |       0 |    0 |   1 |      0 |      0 |          0 |
+|     u_sample_old  |     dflipflop_1 |          2 |          2 |       0 |    0 |   1 |      0 |      0 |          0 |
+|   u_clock_divider |   clock_divider |          9 |          9 |       0 |    0 |  22 |      0 |      0 |          0 |
++-------------------+-----------------+------------+------------+---------+------+-----+--------+--------+------------+
+
+
