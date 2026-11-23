@@ -1,0 +1,63 @@
+# Vivado build artifacts
+*.runs/
+*.cache/
+*.ip_user_files/
+*.sim/
+*.gen/
+*.jou
+*.log
+*.str
+*.wdb
+*.wcfg
+*.pb
+vivado_pid*.str
+webtalk*.jou
+webtalk*.log
+usage_statistics_webtalk.*
+.Xil/
+
+# Xilinx SDK / Vitis — auto-generated platform files
+.metadata/
+.analytics/
+RemoteSystemsTempFiles/
+.cproject
+.project
+.settings/
+Debug/
+Release/
+*.sdk/
+*.hw/
+**/export/
+**/zynq_fsbl/
+**/ps7_cortexa9_0/standalone_ps7_cortexa9_0/
+**/resources/
+**/_ide/
+**/*_system/
+*.bit
+*.a
+*.elf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Simulation and build output from tools/
+build/
+
+# Written by the UART loopback board test (06-uart-loopback/host/uart_loopback.ipynb)
+06-uart-loopback/host/images/original.bmp
+06-uart-loopback/host/images/result.bmp
